@@ -1,10 +1,10 @@
 {
-  "name": "mario2015",
+  "name": "sc3",
   "version": "1.0.0",
-  "description": "Mario designed for the modern world. Hackable and moddable :)",
+  "description": " Side-scrolling run-n-jump designed for the modern world. Hackable and moddable :)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArchimedesPi/mario2015.git"
+    "url": "https://github.com/ArchimedesPi/sc3.git"
   },
   "keywords": [
     "game",
@@ -17,9 +17,9 @@
   "author": "Liam Marshall",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ArchimedesPi/mario2015/issues"
+    "url": "https://github.com/ArchimedesPi/sc3/issues"
   },
-  "homepage": "https://github.com/ArchimedesPi/mario2015",
+  "homepage": "https://github.com/ArchimedesPi/sc3",
   "devDependencies": {
     "browserify": "^7.0.2",
     "gulp": "^3.8.10",
