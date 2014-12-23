@@ -1,0 +1,31 @@
+{
+  "name": "mario2015",
+  "version": "1.0.0",
+  "description": "Mario designed for the modern world. Hackable and moddable :)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArchimedesPi/mario2015.git"
+  },
+  "keywords": [
+    "game",
+    "phaser",
+    "mario",
+    "hack",
+    "webgl",
+    "tiles"
+  ],
+  "author": "Liam Marshall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArchimedesPi/mario2015/issues"
+  },
+  "homepage": "https://github.com/ArchimedesPi/mario2015",
+  "devDependencies": {
+    "browserify": "^7.0.2",
+    "gulp": "^3.8.10",
+    "gulp-coffee": "^2.2.0",
+    "gulp-jade": "^0.10.0",
+    "gulp-sass": "^1.2.4",
+    "vinyl-transform": "^1.0.0"
+  }
+}
