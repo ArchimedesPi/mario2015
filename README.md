@@ -3,7 +3,7 @@
 This one's more an engine, for future top-downs and side scrollers.
 
 ### How do I play it?
-`git clone` the repo, and `gulp play`.
+`git clone` the repo, `npm install`, and `gulp play`.
 
 ### How do I work on it?
 `git clone` the repo.
