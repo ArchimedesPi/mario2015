@@ -26,7 +26,9 @@ gulp.task('browserify', function () {
 
 gulp.task('jade', function () {
   return gulp.src('markup/*.jade')
-    .pipe(jade({}))
+    .pipe(jade({
+      pretty: true
+    }))
     .pipe(gulp.dest('build'))
 });
 
