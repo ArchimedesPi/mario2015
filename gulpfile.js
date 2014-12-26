@@ -39,5 +39,5 @@ gulp.task('browser-sync', ['sass', 'browserify', 'jade'], function() {
     });
 });
 
-gulp.task('default', ['sass', 'browserify', 'jade', 'browser-sync'], function() {
+gulp.task('default', ['sass', 'browserify', 'jade'], function() {
 });
