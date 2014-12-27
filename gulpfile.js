@@ -19,7 +19,7 @@ gulp.task('browserify', function () {
     return b.bundle();
   });
   
-  return gulp.src(['./src/*.js'])
+  return gulp.src(['./scripts/*.js'])
     .pipe(browserified)
     .pipe(gulp.dest('build/js'));
 });
@@ -39,6 +39,12 @@ gulp.task('browser-sync', ['sass', 'browserify', 'jade'], function() {
             baseDir: "./build"
         }
     });
+});
+
+gulp.task('watch', function () {
+  gulp.watch('styles/**/*.scss', ['sass']);
+  gulp.watch('markup/**/*.jade', ['jade']);
+  gulp.watch('scripts/**/*.js', ['browserify']);
 });
 
 gulp.task('default', ['sass', 'browserify', 'jade'], function() {
