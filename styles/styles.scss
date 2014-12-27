@@ -1,2 +1,30 @@
+@import "bourbon/bourbon";
+
+body {
+    background-color: #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.blareboard {
+    color: #fff;
+}
+
+pre {
+    color: #aaa;
+}
+
+pre.blink {
+    @include animation(blink 1s alternate infinite);
+}
+
+@include keyframes(blink) {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
 div.game {
 }
