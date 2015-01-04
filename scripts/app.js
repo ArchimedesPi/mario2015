@@ -38,5 +38,12 @@ $('body').on('keydown', function () {
     
     $('pre').fadeOut("slow", function() { // Fade out. Here's a callback, which happens after it fades out,
         this.remove(); // where the elements are actually removed.
+        // Now start the game
+        setTimeout(function () {
+            console.log('passed control to game.js');
+            require('./game'); 
+        }, 500);
     });
+    
+    $('body').off('keydown'); // "Debounce"
 });
