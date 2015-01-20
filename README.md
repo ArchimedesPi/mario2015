@@ -1,10 +1,9 @@
 # SC3
 ### Why another HTML5 game?
-This one's more an engine, for future top-downs and side scrollers.
+This one's more an engine, for future top-downs and side scrollers. Oh yeah, and **because I felt like it**.
 
 ### How do I play it?
 `git clone` the repo, `npm install`, and `gulp play`.
-Oh yeah, and **because I felt like it**.
 
 ### How do I work on it?
 `git clone` the repo.
